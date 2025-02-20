@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaValley</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="home.html"><strong>Home</strong></a>
+            </li>
+            <li>
+                <a href="AboutUs.html"><strong>About Us</strong></a>
+            </li>
+
+            <li>
+                <a href="contact.html"><strong>Contact</strong></a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <div class="center">
+            <img src="./img/Menu.png"></img>
+        </div>
+        <h1>AquaValley</h1>
+        <h3>AquaValley is a captivating game that blends RPG and fishing simulation in a vibrant, open-world environment. <br> Set in a pictures seaside village, players can embark on exciting quests, explore diverse biomes, interact with unique characters, <br> and uncover hidden secrets beneath the waves. With a dynamic ecosystem, seasonal changes, and a rich crafting system, <br> AquaValley offers endless opportunities for adventure, resource management, and community building. Whether fishing for rare species, <br> upgrading your gear, or shaping your own story, every choice immerses you deeper into a world full of discovery and wonder.</h3>
+    </header>
+
+    <div class="container">
+        <button onclick="downloadFile()">Download</button>
+    </div>
+    
+    <script>
+        function downloadFile() {
+            const link = document.createElement('a');
+            link.href = 'Menu.png';  // Caminho do arquivo
+            link.download = 'Menu.png';  // Nome do arquivo ao ser baixado
+            link.click();
+        }
+    </script>
+    
+    
+    
+
+
+
+
+
+
+
+
+</body>
+</html>
